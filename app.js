@@ -11,7 +11,6 @@ var express     =   require('express'),
     User        =   require("./models/user"),
     seedDB      =   require("./seeds");
 
-const DB = 'mongodb+srv://bhawna:poonam$30@cluster0.7cof4.mongodb.net/yelp_camp_v10?retryWrites=true&w=majority';
 mongoose.connect(DB,{
     useNewUrlParser: true,
     useCreateIndex: true,
